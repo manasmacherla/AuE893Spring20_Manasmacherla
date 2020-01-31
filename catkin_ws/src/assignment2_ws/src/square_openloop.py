@@ -11,7 +11,6 @@ def rotate():
     vel_msg = Twist()
 
     # Receiveing the user's input
-    print("Let's make a square")
     side = input("length of each side: ")
     
     for i in range (0,4):
