@@ -1,11 +1,12 @@
 This assignment uses three python executable files called as circle.py, square_openloop.py and square_closedloop.py which can be found in src folder of the file assignment2_ws.
+To navigate there follow path catkin_ws/src/assignment2_ws/src.
 
 Please run the following commands to in your terminal to run the files:
-roscore
-rosrun turtlesim turtlesim_node
-rosrun assignment2_ws circle.py
-rosrun assignment2_ws square_openloop.py
-rosrun assignment2_ws square.closedloop.py
+1. roscore
+2. rosrun turtlesim turtlesim_node
+3. rosrun assignment2_ws circle.py
+4. rosrun assignment2_ws square_openloop.py
+5. rosrun assignment2_ws square.closedloop.py
 
 1. circle.py
 This file contains code which makes the turtle follow a circle with the given input as the radius of the circle. The turtle first traces a straight line using move.py in turtlesim_cleaner until it reaches the distance of radius and then traces a circle. It then rotates 90 degrees based rotate.py of turtlesim_cleaner. It then takes angular velocity and linear velocity together to trace the circle.
